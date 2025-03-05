@@ -15,5 +15,13 @@ CMakeLists.txt.user
 .swiftpm
 .build
 
-# JetBrain (AndroidStudio, clion)
+# IDEs
 .idea
+.vscode
+
+.env
+/qodana*
+!qodana.yaml
+*.sarif.json
+/cmake-build*
+/build
